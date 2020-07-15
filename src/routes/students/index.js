@@ -108,4 +108,6 @@ router.delete("/:id", async (req, res) => {
     res.send("OK")
 })
 
+//EVERYTHING IS OK GET, GETID, POST, PUT, DELETE AND IN POSTMAN I ADDED THE CHECK EMAIL TO AVOID DUPLICATED EMAIL
+
 module.exports = router
