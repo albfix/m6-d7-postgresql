@@ -20,5 +20,6 @@ server.get("/test", async (req, res) => {
 })
 
 server.use("/students", studentRouter)
+server.use("/:id/projects", projectsRouter)
 
 server.listen(process.env.PORT || 3456, () => console.log("Running on ", process.env.PORT || 3457))

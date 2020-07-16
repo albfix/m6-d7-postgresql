@@ -16,7 +16,7 @@ router.post("/", async (req, res) => {
 
 router.get("/", async (req, res) => {
 
-    const order = req.query.order || "asc"
+    const order = req.query.order || "desc"
     const offset = req.query.offset || 0
     const limit = req.query.limit || 10
 
